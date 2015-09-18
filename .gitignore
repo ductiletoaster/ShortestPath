@@ -4,6 +4,7 @@
 # User-specific files
 *.suo
 *.user
+<<<<<<< HEAD
 *.sln.docstates
 
 # Build results
@@ -17,13 +18,50 @@ build/
 
 # Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
 !packages/*/build/
+=======
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studo 2015 cache/options directory
+.vs/
+>>>>>>> 0733f3f53a1c7be609b26ff9434500415b30324a
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+<<<<<<< HEAD
 *_i.c
 *_p.c
+=======
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+*_i.c
+*_p.c
+*_i.h
+>>>>>>> 0733f3f53a1c7be609b26ff9434500415b30324a
 *.ilk
 *.meta
 *.obj
@@ -43,9 +81,18 @@ build/
 *.vssscc
 .builds
 *.pidb
+<<<<<<< HEAD
 *.log
 *.scc
 
+=======
+*.svclog
+*.scc
+
+# Chutzpah Test files
+_Chutzpah*
+
+>>>>>>> 0733f3f53a1c7be609b26ff9434500415b30324a
 # Visual C++ cache files
 ipch/
 *.aps
@@ -59,12 +106,25 @@ ipch/
 *.vsp
 *.vspx
 
+<<<<<<< HEAD
+=======
+# TFS 2012 Local Workspace
+$tf/
+
+>>>>>>> 0733f3f53a1c7be609b26ff9434500415b30324a
 # Guidance Automation Toolkit
 *.gpState
 
 # ReSharper is a .NET coding add-in
 _ReSharper*/
 *.[Rr]e[Ss]harper
+<<<<<<< HEAD
+=======
+*.DotSettings.user
+
+# JustCode is a .NET coding addin-in
+.JustCode
+>>>>>>> 0733f3f53a1c7be609b26ff9434500415b30324a
 
 # TeamCity is a build add-in
 _TeamCity*
@@ -73,9 +133,22 @@ _TeamCity*
 *.dotCover
 
 # NCrunch
+<<<<<<< HEAD
 *.ncrunch*
 .*crunch*.local.xml
 
+=======
+_NCrunch_*
+.*crunch*.local.xml
+
+# MightyMoose
+*.mm.*
+AutoTest.Net/
+
+# Web workbench (sass)
+.sass-cache/
+
+>>>>>>> 0733f3f53a1c7be609b26ff9434500415b30324a
 # Installshield output folder
 [Ee]xpress/
 
@@ -93,6 +166,7 @@ DocProject/Help/html
 publish/
 
 # Publish Web Output
+<<<<<<< HEAD
 *.Publish.xml
 
 # NuGet Packages Directory
@@ -101,34 +175,73 @@ publish/
 
 # Windows Azure Build Output
 csx
+=======
+*.[Pp]ublish.xml
+*.azurePubxml
+# TODO: Comment the next line if you want to checkin your web deploy settings 
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
+# Windows Azure Build Output
+csx/
+>>>>>>> 0733f3f53a1c7be609b26ff9434500415b30324a
 *.build.csdef
 
 # Windows Store app package directory
 AppPackages/
 
 # Others
+<<<<<<< HEAD
 sql/
 *.Cache
+=======
+*.[Cc]ache
+>>>>>>> 0733f3f53a1c7be609b26ff9434500415b30324a
 ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
 *~
 *.dbmdl
+<<<<<<< HEAD
 *.[Pp]ublish.xml
 *.pfx
 *.publishsettings
+=======
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+node_modules/
+bower_components/
+>>>>>>> 0733f3f53a1c7be609b26ff9434500415b30324a
 
 # RIA/Silverlight projects
 Generated_Code/
 
+<<<<<<< HEAD
 # Backup & report files from converting an old project file to a newer
 # Visual Studio version. Backup files are not needed, because we have git ;-)
+=======
+# Backup & report files from converting an old project file
+# to a newer Visual Studio version. Backup files are not needed,
+# because we have git ;-)
+>>>>>>> 0733f3f53a1c7be609b26ff9434500415b30324a
 _UpgradeReport_Files/
 Backup*/
 UpgradeLog*.XML
 UpgradeLog*.htm
 
 # SQL Server files
+<<<<<<< HEAD
 App_Data/*.mdf
 App_Data/*.ldf
 
@@ -154,3 +267,24 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+=======
+*.mdf
+*.ldf
+
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
+
+# Visual Studio 6 build log
+*.plg
+
+# Visual Studio 6 workspace options file
+*.opt
+>>>>>>> 0733f3f53a1c7be609b26ff9434500415b30324a
