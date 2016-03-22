@@ -1,6 +1,6 @@
 /**
  * Author: Brian Gebel
- * Version: 12.10.2011
+ * Version: 09.17.2015
  * Description: Contains definitions for main.cpp
  */
 
