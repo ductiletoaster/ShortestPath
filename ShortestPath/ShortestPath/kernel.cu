@@ -12,6 +12,7 @@ __global__ void addKernel(int *c, const int *a, const int *b)
     c[i] = a[i] + b[i];
 }
 
+
 int main()
 {
     const int arraySize = 5;

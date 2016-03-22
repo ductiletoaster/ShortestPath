@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4D549B3A-3372-4E54-A3AD-FA6E438B132D}</ProjectGuid>
-    <RootNamespace>ShortestPathCUDA</RootNamespace>
+    <ProjectGuid>{9E797E70-F658-427D-9827-C7DABFD6CC69}</ProjectGuid>
+    <RootNamespace>ShortestPath</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -152,10 +152,20 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
   </ItemDefinitionGroup>
   <ItemGroup>
     <CudaCompile Include="kernel.cu" />
-    <CudaCompile Include="parallelpath.cu" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="parallelpath.cuh" />
+    <ClInclude Include="..\AltitudeCommon.h" />
+    <ClInclude Include="..\AltitudeMap.h" />
+    <ClInclude Include="..\AltitudeMapPath.h" />
+    <ClInclude Include="..\main.h" />
+    <ClInclude Include="..\WindowsTimer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\AltitudeCommon.cpp" />
+    <ClCompile Include="..\AltitudeMap.cpp" />
+    <ClCompile Include="..\AltitudeMapPath.cpp" />
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\WindowsTimer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
